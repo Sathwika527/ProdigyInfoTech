@@ -1,0 +1,67 @@
+body, html {
+    background-image: url('image.png');
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
+#home {
+    height: 100vh;
+    background-image: url(image.png);
+}
+
+#about {
+    height: 100vh;
+    background-image: url(image.png);
+}
+
+#services {
+    height: 100vh;
+    background-image: url(image.png);
+}
+
+#contact {
+    height: 100vh;
+    background-image: url(image.png);
+}
+
+.scrolled {
+    background-color: #111;
+}
